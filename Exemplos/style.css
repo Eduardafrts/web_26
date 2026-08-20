@@ -1,0 +1,43 @@
+/* Plano de fundo */
+body {
+    background-color: lightpink;
+}
+
+/* Título: Introdução ao CSS */
+h1 {
+    color: #95486c;
+    text-align: center;
+    font-size: xxx-large;
+    background-color: #ffffff;
+    font-family: Gabriola;
+}
+
+/* Hover é quando o mouse passa por cima */
+h1:hover {
+    color: black;
+}
+
+/* Parte saiba mais*/
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #95486c;
+    font-weight: bold;
+}
+
+/* o . chama a class */
+.atividade {
+    font-size: 20px;
+    background: none;
+
+}
+
+/* Aplica para todos os intens dentro da lista */
+ul a {
+    color: red;
+}
+
+/* Mais de um item */
+h2, h3, h4 {
+    color: aquamarine;
+}

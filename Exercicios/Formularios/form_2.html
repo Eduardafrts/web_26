@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de produtos</title>
+</head>
+<body>
+
+<h1>🩷 Registre um produto</h1>
+<hr>
+<br>
+
+<!-- NOME *****************************************************************************************************-->
+<form action="" method="post">
+ <label>
+        Nome do produto:
+        <input name="form_nome" type="text" placeholder="Digite o nome" required>
+ </label>
+
+<br>
+<br>
+
+<!-- DESCRIÇÃO ***********************************************************************************************-->
+<label>
+        Descrição:<br>
+        <textarea name="form_desc" rows="10" cols="50" required></textarea>
+</label>
+
+<br>
+<br>
+
+<!-- CATEGORIA ***********************************************************************************************-->
+    <label>Selecione a categoria:</label>
+
+<br>
+<br>
+
+    <label>
+            <input name="form_cat" value="1" type="radio" required>
+            Eletrônicos
+    </label>
+    <label>
+            <input name="form_cat" value="2" type="radio" required>
+            Livros
+    </label>
+    <label>
+            <input name="form_cat" value="3" type="radio" required>
+            Brinquedos
+    </label>
+    <label>
+            <input name="form_cat" value="4" type="radio" required>
+                Esportes
+    </label>
+    <label>
+            <input name="form_cat" value="5" type="radio" required>
+            Calçados
+    </label>
+
+<br>
+<br>
+
+<!-- PAÍS DE ORIGEM ******************************************************************************************-->
+    <label>
+        Selecione seu país de origem:
+        <select name="form_pais" required>
+            <option value="brasil">Brasil</option>
+            <option value="china">China</option>
+            <option value="eua">Estados Unidos</option>
+            <option value="paraguai">Paraguai</option>
+            <option value="japao">Japão</option>
+        </select>
+    </label>
+
+<br>
+<br>
+
+<!-- PREÇO ***************************************************************************************************-->
+    <label>
+        Informe o preço:
+        <input name="form_idade" type="number" placeholder="Ex.:67" required>
+    </label>
+
+<br>
+<br>
+
+<!-- FABRICAÇÃO **********************************************************************************************-->
+    <label>
+        Informe a data de fabricação:
+        <input name="form_data" type="date" required>
+    </label>
+
+<br>
+<br>
+
+<!-- BOTÕES **************************************************************************************************-->
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo {
+    height: 100vh;
+    width: 100%;
+    background: #fbbdd8;
+}
+
+.pai {
+    height: 100px;
+    width: 100%;
+    background: #ff7fba;
+    display: flex;
+    align-items: center;
+}
+
+.filho {
+    height: 70px;
+    width: 120px;
+    background: #faa9cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-left: 40px;
+    font-family: Gabriola;
+}
+
+a {
+    text-decoration: none;
+    color: #613456;
+}
