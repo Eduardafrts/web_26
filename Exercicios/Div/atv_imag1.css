@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pai {
+    height: 100vh;
+    width: 100%;
+    background: #fbbdd8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+
+}
+
+.filho {
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/736x/20/fb/53/20fb536706093d79c5a1b5ec8a6081e6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    font-family: Gabriola;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.filho30 {
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/736x/b9/0f/a6/b90fa6a375626c0c0c1e7ecdd08ab7b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    font-family: Gabriola;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+}
+
+.filho28 {
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/736x/6e/82/c3/6e82c3d11fd6848998f320c958587a7a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    font-family: Gabriola;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+}
