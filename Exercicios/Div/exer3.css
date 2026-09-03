@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo {
+    height: 100vh;
+    width: 100%;
+    background: #fbbdd8;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pai {
+    height: 100vh;
+    width: 200px;
+    background: #ff7fba;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.filho {
+    height: 70px;
+    width: 120px;
+    background: #faa9cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin: 40px;
+    font-family: Gabriola;
+}
+
+a {
+    text-decoration: none;
+    color: #613456;
+}
